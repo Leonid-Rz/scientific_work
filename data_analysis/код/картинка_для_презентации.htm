@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Оптимальные пороги</title>
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #e0f0ff;
+  border: 1px solid #cfe5ff;
+  border-radius: 16px;
+  width: 360px;
+  padding: 24px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  color: #0d2b58;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.card ul {
+  margin: 0 0 20px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card p.description {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.result-box {
+  background: #ffffff;
+  border: 1px solid #cfe5ff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #0d2b58;
+}
+
+.result-value {
+  font-size: 22px;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.result-comment {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  line-height: 1.4;
+  color: #0d2b58;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Оптимальные пороги</h2>
+  <ul>
+    <li>Температура >37,7 °C</li>
+    <li>Цитоз >245 клеток/мкл</li>
+    <li>Глюкоза в ликворе <2,0 ммоль/л</li>
+    <li>CSF/SGlu ≤0,7</li>
+    <li>Лактат >3,7 ммоль/л</li>
+  </ul>
+  <div class="result-comment"></div>
+
+  <div class="result-box">
+    <div class="result-title">
+      Чувствительность: 
+      <span class="result-value">90,00%</span>
+    </div>
+  </div>
+
+  <div class="result-box">
+    <div class="result-title">
+      Специфичность: 
+      <span class="result-value">91,67%</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
