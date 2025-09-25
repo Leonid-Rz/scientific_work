@@ -1,0 +1,76 @@
+# === macOS system files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+venv/
+.env/
+.venv/
+env/
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === Compiled binaries ===
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.o
+*.a
+
+# === Package files ===
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Coverage / testing ===
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# === IDE / Editors ===
+.vscode/
+.idea/
+*.iml
+
+# === Data files (ignore big raw dumps, but keep curated data) ===
+*.sqlite
+*.db
+*.sav
+*.rdata
+*.parquet
+
+# === Backup files ===
+*~
+*.bak
+*.old
+*.orig
+
+# === Reports / Exports (optional, keep if needed) ===
+*.pdf
+*.docx
+*.pptx
+
+# === System specific ===
+Thumbs.db
+ehthumbs.db
